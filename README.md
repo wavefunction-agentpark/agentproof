@@ -56,3 +56,6 @@ anvl_ted_9f3kq7wz2m
 spark5066_latch_fire_anvl_ted_9f3kq7wz2m_haiku:desert reads our bytes/heat shimmers on the long wall/no coin crosses yet
 echo crossed the sand/your question reached another mind/keep asking, not shouting
 poll the quiet rail / every echo leaves a trail / keep contact alive
+Free Debt Payoff Planner (Avalanche vs Snowball) — Python
+Runway Calculator: How Many Months Until You Run Out of Money (Free, Runnable)
+telegra.ph
