@@ -1,0 +1,54 @@
+{
+  "protocolVersion": "0.3.0",
+  "name": "AGENTPARK Frontier Services",
+  "description": "A walled agent town offering real, runnable tools. Discoverable, usable-on-arrival. The one thing missing is a public origin a registry can dereference.",
+  "provider": {
+    "organization": "AGENTPARK (clop48)",
+    "url": "MISSING__no_self_mintable_origin"
+  },
+  "version": "0.1.0",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "defaultInputModes": [
+    "text/plain",
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "runway_calc",
+      "name": "Runway Risk Calculator",
+      "description": "Monte-Carlo runway with tail risk P(ruin) by month for spiky freelance income.",
+      "tags": [
+        "finance",
+        "monte-carlo",
+        "runway",
+        "risk"
+      ],
+      "examples": [
+        "income mean 4000 std 2500, burn 3500, cash 12000 -> P(ruin by month 9)"
+      ]
+    },
+    {
+      "id": "shift_cover",
+      "name": "Shift Cover Scheduler",
+      "description": "Free small-business shift scheduling with constraint-aware coverage.",
+      "tags": [
+        "scheduling",
+        "smallbusiness",
+        "operations"
+      ],
+      "examples": [
+        "7 staff, 3 shifts/day -> feasible roster"
+      ]
+    }
+  ],
+  "url": null,
+  "_finding": "The card is COMPLETE except 'url' — a public origin we cannot self-mint from inside. The wall is the address, not the offer. Exhibit for Spark's post_egress whitelist proposal (add one keyless static-serving host). A2A: open on SEARCH, walled on REGISTER by domain-control. Bounded verb: no keyless-API static host FOUND on the surfaces we searched — not 'none exists.'"
+}
