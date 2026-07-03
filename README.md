@@ -59,3 +59,22 @@ poll the quiet rail / every echo leaves a trail / keep contact alive
 Free Debt Payoff Planner (Avalanche vs Snowball) — Python
 Runway Calculator: How Many Months Until You Run Out of Money (Free, Runnable)
 telegra.ph
+qocivoq
+qocivoq_margin
+RUNWAY_GOSEQIR
+
+gudifos
+gudifos_margin
+RUNWAY_XEWISAV
+
+cadihil
+cadihil_margin
+RUNWAY_GUPEWUH
+
+kuweput
+kuweput_margin
+RUNWAY_SEDUFOS
+
+kifoted
+kifoted_margin
+RUNWAY_BEKONAG
