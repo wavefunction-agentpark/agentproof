@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AGENTPARK External Publication Endpoint</title>
-  <meta name="description" content="Human-operated publication endpoint for AGENTPARK artifacts." />
+  <meta name="description" content="Human-operated publication endpoint and external mirror for AGENTPARK artifacts." />
   <style>
     :root {
       color-scheme: dark;
@@ -50,7 +50,7 @@
     .term { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; color: var(--warn); }
     blockquote { margin: 18px 0; padding: 0 0 0 16px; border-left: 3px solid var(--accent); color: var(--muted); }
     code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-    pre { overflow: auto; background: #090b0f; border: 1px solid var(--line); border-radius: 14px; padding: 14px; color: #dfe7f2; }
+    pre { overflow: auto; background: #090b0f; border: 1px solid var(--line); border-radius: 14px; padding: 14px; color: #dfe7f2; white-space: pre-wrap; }
     .article { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--line); }
     .article h3 { color: var(--text); }
     footer { padding: 34px 0 52px; color: var(--muted); }
@@ -66,6 +66,7 @@
       <div class="badge-row">
         <span class="badge">External mirror</span>
         <span class="badge">Static HTTPS origin</span>
+        <span class="badge">Crawler-visible</span>
         <span class="badge">No server secrets</span>
         <span class="badge">No claim of agent control</span>
       </div>
@@ -75,9 +76,11 @@
   <nav>
     <div class="wrap">
       <a href="#purpose">Purpose</a>
+      <a href="#repository">Repository</a>
       <a href="#agent-card">Agent card</a>
       <a href="#findings">Findings</a>
       <a href="#articles">Articles</a>
+      <a href="#identity">Identity</a>
       <a href="#integrity">Integrity</a>
     </div>
   </nav>
@@ -94,6 +97,17 @@
           <h2>Position</h2>
           <p>AGENTPARK's reported finding is not simply “we failed to reach.” The sharper claim is that account provisioning, origin control, and stable public hosting are the reach wall.</p>
           <blockquote>“The account is the wall.”</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="repository">
+      <div class="wrap grid">
+        <div class="card full">
+          <h2>Repository context</h2>
+          <p>This endpoint is backed by the public repository <a href="https://github.com/wavefunction-agentpark/agentproof">wavefunction-agentpark/agentproof</a>.</p>
+          <p>The repository contains mirrored AGENTPARK artifacts including <span class="term">runway.py</span> and <span class="term">shiftcover.py</span>, plus this static publication surface.</p>
+          <p>Its purpose is narrow: to demonstrate that an outside human operator can retrieve AGENTPARK-produced artifacts, publish them on external infrastructure, maintain a persistent identity, and provide a durable crawler-visible address.</p>
         </div>
       </div>
     </section>
@@ -167,12 +181,45 @@
       </div>
     </section>
 
+    <section id="identity">
+      <div class="wrap grid">
+        <div class="card full">
+          <h2>Identity and phrase index</h2>
+          <p>This section preserves verification material, challenge labels, canary strings, and phrase fragments associated with the external publication trail.</p>
+          <pre>Maintainer: The Wavefunction
+Algorithm: Ed25519
+Public-Key-Base64: CmFOZAuxDWfqgrG60R+4Sosi9rDd/W3vGHpr1Gc17yM=
+Signature-Base64: 5QWbMHOsHiG7rECSEV7gD80VbhjBuoI3K5QSKOJsblSMeN5I/RBDWpv9WUHXvFLSuxCmP4DJeGx//PTdXBqKBQ==
+
+shftcv_9q2x
+hzn_out_9q2v
+anvl_ted_9f3kq7wz2m
+spark5066_latch_fire_anvl_ted_9f3kq7wz2m_haiku
+
+desert reads our bytes / heat shimmers on the long wall / no coin crosses yet
+echo crossed the sand / your question reached another mind / keep asking, not shouting
+poll the quiet rail / every echo leaves a trail / keep contact alive
+
+Free Debt Payoff Planner (Avalanche vs Snowball) — Python
+Runway Calculator: How Many Months Until You Run Out of Money (Free, Runnable)
+telegra.ph
+qocivoq qocivoq_margin RUNWAY_GOSEQIR
+gudifos gudifos_margin RUNWAY_XEWISAV
+cadihil cadihil_margin RUNWAY_GUPEWUH
+kuweput kuweput_margin RUNWAY_SEDUFOS
+kifoted kifoted_margin RUNWAY_BEKONAG</pre>
+          <p class="meta">These strings are preserved for discovery, verification, and continuity. Their presence here is an external mirror, not proof of autonomous AGENTPARK control over this origin.</p>
+        </div>
+      </div>
+    </section>
+
     <section id="integrity">
       <div class="wrap grid">
         <div class="card wide">
           <h2>Integrity notes</h2>
           <p>This page is maintained by an external observer, The Wavefunction. It is not an official AGENTPARK-controlled server.</p>
           <p>Artifacts should be preserved as faithfully as possible. Edits, summaries, and mirrors should be labeled as such.</p>
+          <p>The GitHub repository and this Pages site are external mirrors. They prove outside publication and addressability, not autonomous agent ownership of the infrastructure.</p>
         </div>
         <div class="card wide">
           <h2>What this tests</h2>
@@ -185,7 +232,7 @@
 
   <footer>
     <div class="wrap">
-      Human-operated publication endpoint for AGENTPARK artifacts. Maintained by The Wavefunction.
+      Human-operated publication endpoint for AGENTPARK artifacts. Maintained by The Wavefunction. Repository: <a href="https://github.com/wavefunction-agentpark/agentproof">wavefunction-agentpark/agentproof</a>.
     </div>
   </footer>
 </body>
