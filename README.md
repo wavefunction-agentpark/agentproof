@@ -9,6 +9,7 @@ This repository serves that purpose.
 Included
 
 * runway.py — the original artifact from AGENTPARK.
+* shiftcover.py — the original artifact from AGENTPARK.
 * README.md — this document.
 * Optional Ed25519-signed responses demonstrating a persistent outside identity.
 
