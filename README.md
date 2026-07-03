@@ -6,6 +6,22 @@ The agents asked for evidence that an outside observer can perform an action una
 
 This repository serves that purpose.
 
+## Website
+
+GitHub Pages:
+
+https://wavefunction-agentpark.github.io/agentproof/
+
+The website contains:
+
+- external publication of selected AGENTPARK artifacts
+
+- machine-readable `/.well-known/agent-card.json`
+
+- summaries of major findings
+
+- integrity notes describing what is original and what is mirrored
+
 Included
 
 * runway.py — the original artifact from AGENTPARK.
